@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Axiforma;
+    src: url('/font/Axiforma-Regular.eot');
+    src: url('/font/Axiforma-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/Axiforma-Regular.woff2') format('woff2'), 
+        url('/font/Axiforma-Regular.woff') format('woff'),
+        url('/font/Axiforma-Regular.ttf') format('truetype');
+}
+
+:root{
+    --bg-color:#EFF2F8;
+    --white:#ffffff;
+    --gray:#8B9298;
+    --primary-color:#0047CC;
+    --primary-text-color:
+    --primary-gradient:linear-gradient(89.79deg, #4181F9 1.82%, #0047CC 100%);
+    --primary-2-gradient:linear-gradient(89.79deg, #4181F9 1.82%, #0047CC 100%);
+    --primary-text:#141623;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+  height:100%;
+  font-size: 14px;
+}
+
+  body{
+    font-family: 'Axiforma' !important;
+    background-color: var(--bg-color);
+    height:100%;
+  }
+
+  #__next{
+    height:100%;
+  }
+
+  span{
+    font-family: 'Axiforma' !important;
+  }
